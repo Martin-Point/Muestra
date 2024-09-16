@@ -1,11 +1,10 @@
-
-*{
+* {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,7 @@ body{
     background-size: cover;
 }
 
-.contenedor{
+.contenedor {
     position: relative;
     width: 400px;
     border: 2px solid rgb(255, 255, 255);
@@ -29,20 +28,20 @@ body{
     align-items: center;
 }
 
-.contenedor legend{
+.contenedor legend {
     font-size: 2.3rem;
     color: #fff;
     text-align: center;
 }
 
-.input-contenedor{
+.input-contenedor {
     position: relative;
     margin: 30px 0;
     width: 300px;
     border-bottom: 2px solid #fff;
 }
 
-.input-contenedor label{
+.input-contenedor label {
     position: absolute;
     top: 50%;
     left: 5px;
@@ -54,12 +53,12 @@ body{
     font-weight: bold;
 }
 
-input:focus ~ label,
-input:valid ~ label{
+input:focus~label,
+input:valid~label {
     top: -5px;
 }
 
-.input-contenedor input{
+.input-contenedor input {
     width: 100%;
     height: 50px;
     background-color: transparent;
@@ -70,7 +69,7 @@ input:valid ~ label{
     color: #fff;
 }
 
-.input-contenedor i{
+.input-contenedor i {
     position: absolute;
     color: #fff;
     font-size: 1.6rem;
@@ -78,7 +77,7 @@ input:valid ~ label{
     right: 8px;
 }
 
-.olvidar{
+.olvidar {
     margin: -15px 0 15px;
     font-size: .9em;
     color: #fff;
@@ -86,22 +85,22 @@ input:valid ~ label{
     justify-content: center;
 }
 
-.olvidar label input{
+.olvidar label input {
     margin: 3px;
 }
 
-.olvidar label a{
+.olvidar label a {
     color: #fff;
     text-decoration: none;
     transition: .3s;
     font-size: .9em;
 }
 
-.olvidar label a:hover{
+.olvidar label a:hover {
     text-decoration: underline;
 }
 
-button{
+button {
     width: 100%;
     height: 45px;
     border-radius: 40px;
@@ -114,33 +113,33 @@ button{
     transition: .4s;
 }
 
-button:hover{
+button:hover {
     opacity: .9;
 }
 
-.registrar{
+.registrar {
     font-size: .8rem;
     color: #fff;
     text-align: center;
     margin: 20px 0 10px;
 }
 
-.registrar p a{
+.registrar p a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     transition: .3s;
 }
 
-.registrar p a:hover{
+.registrar p a:hover {
     text-decoration: underline;
 }
 
-.formulario{
+.formulario {
     border: none;
 }
 
-.acceder{
+.acceder {
     color: #000000;
     text-decoration: none;
 }
